@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(borda-receita.png);
+    width: 100%;
+    background-position: right 130px top 380px;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.corpo{
+    display: flex;
+    text-align: center;
+    align-items: center;  
+    margin-top: 2em;
+    font-size: 15px;
+}
+
+#gastro:visited {
+    color: #f6d16b;
+}
+
+#voltar{
+    height: 50px; 
+    display: block;
+    margin-left: 5em;
+
+}
+
+#voltar img {
+    width: 100%;
+    height: 100%;
+}
+
+.corpo img{
+    margin-bottom: 10em;
+}
+
+#tutu{
+    background-color: #fad059;
+    width: 75%;
+    margin: 0;
+    margin-left: 2em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+    color: white;
+}
+
+#pao{
+    width: 75%;
+    height: 60vh;
+    margin-left: 12em;
+    margin-top: -5em;
+    border-radius: 2em;
+    border: solid 10px #fad059;
+
+}
+
+
+.borda-re img{
+    position: absolute;
+    right: 72em;
+    bottom: 69em;
+    pointer-events: none;
+    margin: 0;
+    width: 15%;
+}
+
+.receita{
+    text-align: left;
+    color: #95683d;
+    margin-left: 15em;
+    margin-top: 7em;
+    font-size: 20px;
+}
+
+.modoPreparo{
+    color: #95683d;
+    text-align: left;
+    margin-left: 15em;
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+.li-ig{
+    font-size: 25px;
+    color:#4c2308 ;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap');
+
+#gastro:visited {
+    color: #f6d16b;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 5em;
+    font-size: 23px;
+    color: #c99471;
+}
+
+.container{
+    overflow: hidden;
+    text-align: center;
+    background-color:#fad059;
+    margin-top: 5em;
+    width: 75%;
+    height: 170vh;
+    margin-left: 12em;
+    border-radius: 2em;
+    padding-left: 10em;
+}
+
+.container{
+    background-image: url(moldura.png);
+    background-position: 99% top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+}
+
+.lista-receitas {
+    display: flex;
+    flex-direction: column;
+    gap: 5em; 
+    margin-bottom: 2em;
+}
+
+
+.item-receita {
+    display: flex;
+    align-items: center; 
+    text-align: left;
+}
+
+.img-receita {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 260px; 
+    height: auto;
+    margin-right: 20px;
+    display: block;
+    border-radius: 2em;
+    border: solid 5px #ececcd;
+}
+
+.img-receita:hover {
+    transform: scale(1.15);
+}
+
+.info-receita h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.info-receita p {
+    margin: 5px 10px 0 0;
+}
+
+#moldura {
+    position: absolute;
+    right: 42em;
+    bottom: 10px;
+    width: 30%;
+    pointer-events: none;
+    margin: 0;
+    width: 40%;
+}
+
+.titulo h2{
+    pointer-events: none;
+    margin-right: 20em;
+    margin-top: 0.5em;
+    font-size: 6em;
+   font-family: "Monsieur La Doulaise", cursive;
+   font-weight: 400;
+  font-style: normal;
+}

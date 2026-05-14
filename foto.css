@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap');
+
+#foto:visited {
+    color:#ffebce;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 5em;
+    font-size: 23px;
+    color: #e1bf8c;
+}
+
+.container{
+    overflow: hidden;
+    text-align: center;
+    background-color:#c99471;
+    margin-top: 5em;
+    width: 75%;
+    height: 170vh;
+    margin-left: 12em;
+    border-radius: 2em;
+    padding-left: 10em;
+}
