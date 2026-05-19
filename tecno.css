@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Purple+Purse&display=swap');
+
+#tecno:visited{
+    color: #0097b2;
+}
+
+.home{
+    margin-bottom: 20em;
+}
+
+body{
+    background-image: none;
+}
+
+.texto-para p{
+     margin-top: -13em;
+     text-align: center;
+     color:  #0097b2;
+     font-size: 20px;
+     font-family: "Charis SIL", serif;
+     font-weight: 400;
+     font-style: normal;
+}
+
+#banner-tecno {
+    margin-left: 17em;
+    margin-bottom: 6em;
+    width: 65%;
+    border-radius: 2em;
+    border: solid 5px #0097b2;
+}
+
+.home img{
+    width: 5%;
+    margin-top: 2em;
+    margin-left: 44.5em;
+}
+
+.texto-para-dois p{
+     margin-top: -2em;
+     text-align: center;
+     color:  #0097b2;
+     font-size: 20px;
+     font-family: "Charis SIL", serif;
+     font-weight: 400;
+     font-style: normal;
+}
+
+.lista-receitas-foto {
+    display: flex;
+    flex-direction: column;
+    gap: 5em; 
+}
+
+
+.item-receita-foto {
+    display: flex;
+    align-items: center; 
+    text-align: left;
+    margin-left: 15em;
+}
+
+.img-receita-foto {
+    overflow: hidden;
+    width: 390px; 
+    height: auto;
+    margin-right: 50px;
+    display: block;
+    border-radius: 2em;
+    border: solid 5px #0097b2;
+}
+
+.info-receita-foto p {
+    margin-left: 2em;
+    font-size: 20px;
+    color: #0097b2;
+    font-family: "Charis SIL", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.texto-para-tres p{
+     margin-bottom: 2em;
+     text-align: center;
+     color:  #0097b2;
+     font-size: 20px;
+     font-family: "Charis SIL", serif;
+     font-weight: 400;
+     font-style: normal;
+}

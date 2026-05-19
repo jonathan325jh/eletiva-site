@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Purple+Purse&display=swap');
 
 *{
     margin: 0;
@@ -11,6 +13,66 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+
+}
+
+
+body{
+    background-image: 
+        url(borda-proposta.png), 
+        url(borda-proposta-Copia.png),
+        url(brilho.png),
+        url(fundo-um.png),
+        url(fundo-dois.png),
+        url(fundo-um.png),
+        url(fundo-tres.png),
+        url(fundo-um.png),
+        url(fundo-dois.png),
+        url(fundo-um.png),
+        url(fundo-tres.png);
+
+    background-position: 
+        37% 75%, 
+        62.5% 75%,
+        28% 21.5%,
+        5% 21.5%,
+        10% 41.5%,
+        5% 61.5%,
+        10% 81.5%,
+        95% 21.5%,
+        90% 41.5%,
+        95% 61.5%,
+        90% 81.5%;
+
+    background-size: 
+        3%, 
+        3%,
+        3%,
+        6%,
+        4%,
+        6;
+
+    background-repeat: 
+        no-repeat, 
+        no-repeat,
+        no-repeat,
+        no-repeat
+}
+
+body.fundo-proposta{
+    background-image: url(borda-proposta.png);
+    background-repeat: no-repeat;
+    background-position: 38% 79.2%;
+    background-size: 3%;
+    background-repeat: no-repeat;
+}
+
+body.fundo-proposta-dois{
+    background-image: url(borda-proposta-Copia.png);
+    background-repeat: no-repeat;
+    background-position: 28% 79.2%;
+    background-size: 4%;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -61,7 +123,7 @@ footer{
 
 #para-copy{
     color: white;
-    margin-left: 5em;
+    margin-left: 8em;
     margin-top: 1.3em;
     font-size: 30px;
     margin-right: 20px;
@@ -77,4 +139,43 @@ footer{
 
 #tecno:hover{
  color:#0097b2;
+}
+
+.corpo-dois{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.corpo-dois h3{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.corpo-dois p{
+    font-size: 28px;
+    font-family: "Charis SIL", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tecno strong{
+    color: #0097b2;
+}
+
+.gastro strong{
+    color: #f6d16b;
+}
+
+.foto strong{
+     color:#ffe1b3;
+}
+
+.tecno-s strong{
+     color:#0097b2; 
+}
+
+
+
+.proposta{
+    margin-top: 4em;
 }
