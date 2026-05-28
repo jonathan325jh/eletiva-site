@@ -17,7 +17,7 @@ body{
 }
 
 
-body{
+body.pagina-inicial{
     background-image: 
         url(borda-proposta.png), 
         url(borda-proposta-Copia.png),
@@ -108,19 +108,25 @@ footer{
     height: 15vh;
 }
 
+footer p{
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+
 #colegio{
     display: block;
     width: 6%;
-    margin-left: 10em;
+    margin-left: 10rem;
     object-fit: contain;
 }
 
 #para-copy{
     color: white;
-    margin-left: 8em;
     margin-top: 1.3em;
     font-size: 30px;
-    margin-right: 20px;
+    text-align: center;
 }
 
 #gastro:hover{
@@ -172,4 +178,18 @@ footer{
 
 .proposta{
     margin-top: 4em;
+}
+
+.home {
+    width: 100%;
+    text-align: center;
+}
+
+.home a img {
+    width: 6%; 
+    max-width: 80px; 
+    min-width: 30px; 
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
 }

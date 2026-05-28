@@ -32,24 +32,28 @@
 }
 
 .container{
-    background-image: url(borda-foto.png);
-    background-position: 101% top;
-    background-size: 30%;
-    background-repeat: no-repeat;
+    background-image: 
+    url(borda-foto.png),
+    url(borda-foto2.png);
+
+    background-position: 
+    99% top,
+    0.5% bottom;
+
+    background-repeat: 
+    no-repeat,
+    no-repeat;
+
+    background-size: 
+    29%,
+    29%;
+    
 }
 
 .img-receita-foto{
     width: 30%;
 }
 
-#moldura {
-    position: absolute;
-    right: 58.8em;
-    top: 86.7em;
-    width: 25%;
-    pointer-events: none;
-    margin: 0;
-}
 
 .lista-receitas-foto {
     display: flex;
@@ -97,11 +101,10 @@
 }
 
 .titulo h2{
- 
-    margin-right: 7.5em;
-    font-size: 6em;
-   font-family: "Monsieur La Doulaise", cursive;
-   font-weight: 400;
+  margin-right: 7.5em;
+  font-size: 6em;
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
   font-style: normal;
 }
 
