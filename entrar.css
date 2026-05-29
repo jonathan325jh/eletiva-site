@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Login.png');
+    background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cooper Hewitt', sans-serif;
+    background-color: rgba(255, 222, 89, 0.5);
+    border-radius: 2%;
+    border: solid 4px rgb(255, 197, 89);
+    width: 30%;
+    margin-right: 10em;
+    height: 81vh;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+
+#foto-logo{
+    width: 45%;
+    margin-left: 20px;
+}
+
+header, #volar{
+    margin-bottom: 40em;
+}
+
+#voltar{
+    width: 70%;
+}
+
+.form{
+    margin-bottom: 5em;
+    border-radius: 20px;
+}
+
+input{
+    width: 16em;
+    height: 6vh;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(251, 165, 6, 0.381);
+    border: solid 5px  rgba(251, 165, 6);
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: black;
+}
+
+#titulo{
+    font-size: 40px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.grupo-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3em; 
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1.5em;  
+    height: 1.5em; 
+    cursor: pointer;
+    background-color: rgba(255, 170, 0, 0.5); 
+    border: 3px solid #ff7700; 
+    border-radius: 4px;           
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+input[type="radio"]:checked {
+    background-color: rgba(255, 170, 0, 0.5);
+}
+
+
+input[type="radio"]:checked::before {
+    content: "X";
+    color: rgb(255, 120, 30);
+    font-size: 1.2em;
+    font-weight: bold;
+}
