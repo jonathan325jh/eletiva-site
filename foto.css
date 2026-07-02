@@ -58,7 +58,7 @@
 .lista-receitas-foto {
     display: flex;
     flex-direction: column;
-    gap: 2em; 
+    gap: 2rem; 
     margin-bottom: 2em;
 }
 
@@ -81,12 +81,12 @@
     font-family: "Charis SIL", serif;
     font-weight: 700;
     font-style: normal;
-    margin: 0;
+    margin: 0 auto;
     font-size: 1.5em;
 }
 
 .info-receita-foto p {
-    margin: 5px 10px 0 0;
+    margin: 5px 15px 0 0;
 }
 
 
